@@ -19,7 +19,22 @@
 	color: #FFFFFF;
 }
 -->
-</style></head><body>
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-responsive.min.css" />
+
+        
+        <script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>		
+        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+        
+        
+        <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.0.3/css/font-awesome.min.css" />
+        
+        <link rel="stylesheet" type="text/css" href="assets/dcvAttach/dcvAttach.css" />
+        <script type="text/javascript" src="assets/dcvAttach/dcvAttach.js?version=1.0.2"></script>
+    </head><body>
     
     <%
    String mStatus = request.getParameter( "maritualStatus" );

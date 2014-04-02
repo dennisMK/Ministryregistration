@@ -1,0 +1,98 @@
+/* 
+    Document   : dcvAttach
+    Created on : Feb 20, 2014, 10:13:59 AM
+    Author     : bishaka
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#dcvAttach_add
+{
+    background-image:url("images/attach.png");
+    background-repeat:no-repeat;
+    background-size:30px;
+    height:30px;
+    width:30px; 
+}
+
+#dcvAttach_fbench
+{
+    display:none;
+}
+
+.dcvAttach_del, .dcvAttach_no_box
+{
+    padding-top:5px;
+    margin-bottom:5px; 
+}
+
+.for_deletion
+{
+    text-decoration: line-through;
+}
+
+.progress{
+  width: 100%;
+  height: 5px;
+}
+
+.progress-wrap 
+{
+  background: #4585F1;
+  margin: 10px 0;
+  overflow: hidden;
+  position: relative;    
+}
+
+.progress-wrap .progress-bar {
+    background: #ddd;    
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.progress-word
+{
+    color: #4585F1; 
+}
+
+.progress-del
+{
+    color:rgba(0,0,0,0.6);
+    border-left:solid 1px rgba(0,0,0,0.6);
+    padding-left:20px;
+    cursor:pointer; 
+    font-size:medium; 
+}
+
+.dcvAttach_del
+{
+    color:rgba(0,0,0,0.6);
+    padding-left:20px;
+    cursor:pointer; 
+    font-size:medium; 
+}
+
+.progress-del-disabled
+{
+    color:rgba(0,0,0,0.2);
+    border-left:solid 1px rgba(0,0,0,0.6);
+    padding-left:20px;
+    cursor:pointer; 
+    font-size:medium; 
+}
+
+.progress-word, .progress-del
+{
+    padding-top:3px;
+}
+
+.progress-wb
+{
+    margin-top:10px; 
+}
+
+.progress-wb:first-of-type
+{
+    margin-top:0px;
+}

@@ -54,6 +54,9 @@ public class Register extends HttpServlet {
         }
 
    
+        // inserting the data from sessions.
+        
+        
        request.getRequestDispatcher("/index.jsp").forward(request, response);
      
     }

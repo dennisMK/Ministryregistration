@@ -7,5 +7,12 @@
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/MinistryRegistration?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">daphin1986</property>
+    
+     <!-- Names the annotated entity class -->
+        <mapping class="com.ministryRegistration.models.Qualification"/>
+        <mapping class="com.ministryRegistration.models.Teacher"/>
+        <mapping class="com.ministryRegistration.models.TeacherDetail"/>
+        <mapping resource="com/tut/hibernate/Attachment.hbm.xml" />
+    
   </session-factory>
 </hibernate-configuration>
